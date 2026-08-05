@@ -90,12 +90,9 @@ Schematics, PCB layout files, and BOM (Bill of Materials) can be found in the [`
 
 ```
 .
-├── hardware/        # KiCad schematics, PCB layout, and BOM
-├── enclosure/        # FreeCAD source files and exported STL/STEP for the cover
-├── src/              # Firmware source code
-├── include/          # Header files
-├── lib/               # Project-specific libraries
-├── platformio.ini    # PlatformIO project configuration
+├── hardware/    # KiCad schematics, PCB layout, and BOM
+├── enclosure/  # FreeCAD source files and exported STL/STEP for the cover
+├── firmware/  # PlatformIO project configuration
 └── README.md
 ```
 
