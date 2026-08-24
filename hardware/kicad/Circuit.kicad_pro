@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -412,17 +412,26 @@
     "top_level_sheets": [
       {
         "filename": "Circuit.kicad_sch",
-        "name": "Circuit",
+        "name": "Power section",
         "uuid": "d9f6efd2-e608-4732-a385-c6e7c0265b38"
+      },
+      {
+        "filename": "mcu_section.kicad_sch",
+        "name": "MCU section",
+        "uuid": "86afd891-3dbf-4f46-ba01-52c76b8826bc"
       }
     ],
-    "used_designators": "J1,#PWR1-2,D1-2,C1,R1-3,U1-4",
+    "used_designators": "#PWR42-43,J3",
     "variants": []
   },
   "sheets": [
     [
       "d9f6efd2-e608-4732-a385-c6e7c0265b38",
-      "Circuit"
+      "Power section"
+    ],
+    [
+      "86afd891-3dbf-4f46-ba01-52c76b8826bc",
+      "MCU section"
     ]
   ],
   "text_variables": {},
