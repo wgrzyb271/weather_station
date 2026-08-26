@@ -40,11 +40,12 @@
 // 2. Sits safely above 20 kHz, the traditional edge of adult human hearing,
 //    giving margin against audible coil/capacitor whine (20 kHz itself is
 //    borderline - some younger listeners perceive close to that edge).
-#define PWM_FREQ         24000  // 24 kHz (comfortable margin above IEEE 1789 low-risk band and audible range)
-#define PWM_RES          8      // 8-bit resolution (0 - 255)
-#define PWM_MIN_THRESHOLD 15    // Duty cycle floor (prevents display dropouts).
+#define PWM_FREQ          24000  // 24 kHz (comfortable margin above IEEE 1789 low-risk band and audible range)
+#define PWM_RES           8      // 8-bit resolution (0 - 255)
+#define PWM_MAX           190    // Maximum duty cycle value (for 8-bit resolution)
+#define PWM_MIN_THRESHOLD 15     // Duty cycle floor (prevents display dropouts).
                                  // NOTE: this caps modulation depth at ~88.9%
-                                 // (Percent Flicker = 100*(255-15)/(255+15)),
+                                 // (Percent Flicker = 100*(PWM_MAX-15)/(PWM_MAX+15)),
                                  // not full 0-100% - a small extra safety
                                  // margin on top of the frequency margin above.
 
@@ -116,12 +117,12 @@ void updateBacklightTask() {
 
   // ---------------------------------------------------------
   // MAPPING logic for LDR pull-up divider:
-  // Low raw ADC  (dark room)   -> 255 (full brightness)
+  // Low raw ADC  (dark room)   -> PWM_MAX (full brightness)
   // High raw ADC (bright room) -> PWM_MIN_THRESHOLD (dim)
   // ---------------------------------------------------------
-  int targetPwm = map((int)filteredAdc, ADC_RAW_DARK, ADC_RAW_BRIGHT, 255, PWM_MIN_THRESHOLD);
+  int targetPwm = map((int)filteredAdc, ADC_RAW_DARK, ADC_RAW_BRIGHT, PWM_MAX, PWM_MIN_THRESHOLD);
 
-  targetPwm = constrain(targetPwm, PWM_MIN_THRESHOLD, 255);
+  targetPwm = constrain(targetPwm, PWM_MIN_THRESHOLD, PWM_MAX);
   snprintf(strBuffer, sizeof(strBuffer), "%.1d", targetPwm);
   Serial.println(strBuffer);
 
