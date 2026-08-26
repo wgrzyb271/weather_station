@@ -1,0 +1,13 @@
+
+# macOS
+.DS_Store
+
+# KiCad local save history
+hardware/kicad/.history/
+
+# KiCad imports instruction
+*.htm
+
+# KiCad backups
+hardware/kicad/Circuit-backups/
+hardware/kicad/~*
