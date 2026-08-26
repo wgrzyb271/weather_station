@@ -3786,6 +3786,16 @@
 		)
 		(uuid "ce55e26c-1698-41f3-8ebe-ea16abd8923b")
 	)
+	(text "Add battery voltage reading"
+		(exclude_from_sim yes)
+		(at 151.384 128.524 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "f1b27460-0c78-4fbd-91c3-936c9e325e3f")
+	)
 	(text "On battery connector: JST SYP-02T-1"
 		(exclude_from_sim yes)
 		(at 236.982 149.86 0)
