@@ -27,6 +27,11 @@ Designed using **KiCad** for hardware development and programmed via **PlatformI
 | **Light Sensing** | Photoresistor (LDR) in a voltage divider network connected to an ESP32-C6 ADC pin |
 | **Backlight Control** | TFT backlight pin driven directly via the ESP32-C6 **LEDC (LED Control)** peripheral to generate high-frequency PWM for IEEE 1789-compliant dimming |
 
+<p align="center">
+  <img src="./hardware/photos/power_section.svg" alt="Schematic - Power Section" width="48%" />
+  <img src="./hardware/photos/mcu_section.svg" alt="Schematic - MCU Section" width="48%" />
+</p>
+
 ---
 
 ## 💻 Tech Stack & Libraries
