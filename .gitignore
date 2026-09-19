@@ -11,3 +11,15 @@ hardware/kicad/.history/
 # KiCad backups
 hardware/kicad/Circuit-backups/
 hardware/kicad/~*
+
+# Production & Fabrication Outputs
+hardware/kicad/production/
+hardware/kicad/fabrication-toolkit-options.json
+hardware/kicad/*.csv
+
+# KiCad Local Settings & Autosaves
+*.kicad_prl
+*-bak
+*-bak-*
+*_autosave-*
+*.lck

@@ -4691,6 +4691,12 @@
 		(uuid "492683d5-b629-4b1a-8dfb-097d0d7b23db")
 	)
 	(junction
+		(at 115.57 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b26f687-756f-40c4-beaa-e935eae88c87")
+	)
+	(junction
 		(at 200.66 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4791,12 +4797,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f852fa5-d877-4b2f-9072-5ddbde0f7888")
-	)
-	(junction
-		(at 115.57 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3a66c4d-c772-4818-baed-92fb0b3875e1")
 	)
 	(junction
 		(at 199.39 81.28)
@@ -4981,6 +4981,16 @@
 			(type default)
 		)
 		(uuid "1bd83e24-812e-4b16-b37b-977dafad457e")
+	)
+	(wire
+		(pts
+			(xy 115.57 35.56) (xy 121.92 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c014023-eee7-4b4f-9899-6a8b05c9a245")
 	)
 	(wire
 		(pts
@@ -5284,6 +5294,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 45.72) (xy 115.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccef462-76bf-43ce-b556-67d4ad84f7a2")
+	)
+	(wire
+		(pts
 			(xy 53.34 152.4) (xy 59.69 152.4)
 		)
 		(stroke
@@ -5454,7 +5474,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 35.56) (xy 115.57 35.56)
+			(xy 110.49 35.56) (xy 115.57 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6394,16 +6414,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 35.56) (xy 115.57 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce0338c9-1a20-4e9d-acc1-36b0d928453d")
-	)
-	(wire
-		(pts
 			(xy 85.09 134.62) (xy 90.17 134.62)
 		)
 		(stroke
@@ -6431,16 +6441,6 @@
 			(type default)
 		)
 		(uuid "d0afdc5f-a98e-460a-8c1c-4911c7a8f0dc")
-	)
-	(wire
-		(pts
-			(xy 115.57 35.56) (xy 115.57 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1625187-1b3d-4bc1-b59e-031f5947b758")
 	)
 	(wire
 		(pts
@@ -7494,6 +7494,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23178"
+			(at 180.34 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4b2ca52-eaca-4309-9148-880cb369e997")
 		)
@@ -7573,6 +7584,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22847"
+			(at 49.53 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "57081e8b-617a-47be-a167-ef16f012ac1b")
 		)
@@ -7583,223 +7605,6 @@
 			(project "Circuit"
 				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G")
-		(at 115.57 41.91 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1f4f9ed7-a12a-4775-a013-f090d4b8cdea")
-		(property "Reference" "D6"
-			(at 118.872 39.878 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD5Z6.8T1G"
-			(at 113.03 43.1799 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:TVS_LESD5D5.0CT1G"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Transient Voltage Suppressors for ESD Protection"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Leshan Radio Co."
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=eda"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "O"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=snap"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "LESD5D5.0CT1G"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "LRC"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "4da14eac-4fff-4505-b1b3-42a284de9a8d")
-		)
-		(pin "1"
-			(uuid "591b3100-a580-4a27-abfc-90c26c5d6af8")
-		)
-		(instances
-			(project "Circuit"
-				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7863,6 +7668,17 @@
 			)
 		)
 		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
+			(at 72.39 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15464"
 			(at 72.39 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8012,6 +7828,268 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 33.02 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c006768-cc8d-4ac6-9e36-b4871375ae24")
+		(property "Reference" "#PWR02"
+			(at 33.02 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30f8fc12-ce47-4ff7-9414-7cd84cf765b9")
+		)
+		(instances
+			(project "Circuit"
+				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "341db0b5-4cda-484d-814c-f4a167a1e264")
+		(property "Reference" "R13"
+			(at 182.626 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 182.626 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 178.562 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15401"
+			(at 180.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c354bd1e-6fcc-4969-9ffb-1042d1ea8849")
+		)
+		(pin "2"
+			(uuid "1aa6900b-0679-4145-a118-1c59296acd57")
+		)
+		(instances
+			(project "Circuit"
+				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "390a8db2-fb08-4539-a7b4-f4a1228eba41")
+		(property "Reference" "R5"
+			(at 64.262 62.992 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 64.008 65.278 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 60.452 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14677"
+			(at 62.23 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bcab4f6-3f3d-4a38-bac9-6a722900ce67")
+		)
+		(pin "2"
+			(uuid "dbd7e1f7-8dc6-4b6a-ab8e-32ec3e235d99")
+		)
+		(instances
+			(project "Circuit"
+				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G")
 		(at 80.01 67.31 90)
 		(unit 1)
@@ -8021,9 +8099,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2b5fd1d2-28f2-4b39-a728-28f944fee11b")
+		(uuid "395b3fc9-f2b0-4131-934c-933e4f2e76f2")
 		(property "Reference" "D2"
-			(at 76.708 65.024 90)
+			(at 81.788 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8033,8 +8111,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD5V0X1UL"
-			(at 82.55 57.404 0)
+		(property "Value" "LESD5D5.0CT1G"
+			(at 81.788 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8211,256 +8289,27 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C5246195"
+			(at 80.01 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "4c1aec4f-8c02-4683-a194-f9fb6b15ab8d")
+			(uuid "a4f41270-3774-4f1e-bbb1-62cf915f02f0")
 		)
 		(pin "1"
-			(uuid "e1ea8a7a-68bd-4c98-a6c7-d06ce13dd285")
+			(uuid "488181ca-a635-46ca-ba03-4cb5239dfaf9")
 		)
 		(instances
 			(project "Circuit"
 				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c006768-cc8d-4ac6-9e36-b4871375ae24")
-		(property "Reference" "#PWR02"
-			(at 33.02 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30f8fc12-ce47-4ff7-9414-7cd84cf765b9")
-		)
-		(instances
-			(project "Circuit"
-				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.34 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "341db0b5-4cda-484d-814c-f4a167a1e264")
-		(property "Reference" "R13"
-			(at 182.626 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 182.626 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 178.562 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 180.34 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c354bd1e-6fcc-4969-9ffb-1042d1ea8849")
-		)
-		(pin "2"
-			(uuid "1aa6900b-0679-4145-a118-1c59296acd57")
-		)
-		(instances
-			(project "Circuit"
-				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 62.23 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "390a8db2-fb08-4539-a7b4-f4a1228eba41")
-		(property "Reference" "R5"
-			(at 64.262 62.992 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k1"
-			(at 64.008 65.278 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 60.452 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 62.23 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8bcab4f6-3f3d-4a38-bac9-6a722900ce67")
-		)
-		(pin "2"
-			(uuid "dbd7e1f7-8dc6-4b6a-ab8e-32ec3e235d99")
-		)
-		(instances
-			(project "Circuit"
-				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8600,6 +8449,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 30.48 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C59782"
 			(at 30.48 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8962,6 +8822,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C43922"
+			(at 101.6 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a7494df-14ab-4ed3-a306-f087d492afd4")
 		)
@@ -9037,6 +8908,17 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 153.67 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
 			(at 153.67 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9209,6 +9091,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25599"
+			(at 90.17 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee2862ce-855e-4745-98a0-67b73ae21b0f")
 		)
@@ -9245,7 +9138,7 @@
 				)
 			)
 		)
-		(property "Value" "71.5K"
+		(property "Value" "75K"
 			(at 29.464 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9279,6 +9172,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 29.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C18671"
+			(at 29.21 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,6 +9340,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 151.13 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15458"
+			(at 151.13 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9749,6 +9664,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 49.53 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C13118"
+			(at 49.53 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10153,6 +10079,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C43922"
+			(at 121.92 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61bf606a-c452-49b2-a65f-2de64ab86840")
 		)
@@ -10223,6 +10160,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 36.83 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C165948"
 			(at 36.83 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10433,6 +10381,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15127"
+			(at 90.17 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "30bf65bf-7663-41c5-9b18-eb3cffe2aaff")
 		)
@@ -10446,6 +10405,233 @@
 			(project "Circuit"
 				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G")
+		(at 74.93 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98c53544-848d-42df-9863-03c218a061b5")
+		(property "Reference" "D1"
+			(at 69.85 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LESD5D5.0CT1G"
+			(at 76.708 71.628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:TVS_LESD5D5.0CT1G"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transient Voltage Suppressors for ESD Protection"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Leshan Radio Co."
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=eda"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "O"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=snap"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "LESD5D5.0CT1G"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "LRC"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC" "C5246195"
+			(at 74.93 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "86c11469-b582-4f6c-9dca-9138e1bdc0ab")
+		)
+		(pin "1"
+			(uuid "0ff9c2e6-71fb-407a-a19c-4e47fdba7cb8")
+		)
+		(instances
+			(project "Circuit"
+				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10650,6 +10836,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C109322"
+			(at 218.44 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "2df7a47f-488d-4e57-a8cf-cbe9d7abb7ad")
 		)
@@ -10755,6 +10952,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C108342"
 			(at 114.3 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10993,6 +11201,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C108342"
 			(at 97.79 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11539,6 +11758,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25989"
+			(at 107.95 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "534be640-7792-4a9c-9a0d-ae377289d920")
 		)
@@ -11628,6 +11858,233 @@
 			(project "Circuit"
 				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G")
+		(at 115.57 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9bdeee1-69ab-4cc8-869e-8c5fa662277d")
+		(property "Reference" "D6"
+			(at 117.094 38.354 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LESD5D5.0CT1G"
+			(at 117.094 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:TVS_LESD5D5.0CT1G"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transient Voltage Suppressors for ESD Protection"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Leshan Radio Co."
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=eda"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "O"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=snap"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "LESD5D5.0CT1G"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "LRC"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC" "C5246195"
+			(at 115.57 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8461a72-cede-483f-97c3-3e690c028798")
+		)
+		(pin "1"
+			(uuid "7acb0628-d519-4afb-84a0-5fa3466b64fa")
+		)
+		(instances
+			(project "Circuit"
+				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11777,6 +12234,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1590"
+			(at 200.66 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b104767-ad44-4f8d-afbb-f478c6f5232e")
 		)
@@ -11848,6 +12316,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 38.1 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C108342"
 			(at 38.1 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11930,6 +12409,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 199.39 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15458"
 			(at 199.39 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12101,6 +12591,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C237435"
+			(at 166.37 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5ed515a-8e9c-4344-8088-cf1114778014")
 		)
@@ -12172,6 +12673,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C92806"
 			(at 187.96 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12388,7 +12900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 101.6 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12411,6 +12923,17 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 101.6 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C525660"
 			(at 101.6 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -12503,6 +13026,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C237435"
+			(at 156.21 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "738ce9d1-13ae-472c-b158-8afb5d9b567e")
 		)
@@ -12575,6 +13109,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 212.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C86295"
 			(at 212.09 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12664,6 +13209,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25989"
+			(at 107.95 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d06ac4b4-b60d-4402-9ad3-b8f083dc5c42")
 		)
@@ -12713,7 +13269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "AOTA-B252010S1R5MT:INDC2520X100N"
 			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -12736,6 +13292,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 193.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C24383011"
 			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -12816,6 +13383,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 151.13 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15458"
+			(at 151.13 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13131,6 +13709,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 251.46 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6f9eeab2-217b-4953-aafb-83f21e75386a")
 		)
@@ -13202,6 +13791,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 57.15 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14677"
 			(at 57.15 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13294,6 +13894,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C237435"
+			(at 168.91 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e863ca0-61db-43dd-977e-1fa4d472b601")
 		)
@@ -13366,6 +13977,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 180.34 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22807"
 			(at 180.34 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13533,6 +14155,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15458"
+			(at 161.29 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab33e3e3-67b9-4723-80af-6a437379b243")
 		)
@@ -13612,6 +14245,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15458"
+			(at 171.45 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "093c1d6a-ad09-45d4-8777-1e87c18595ef")
 		)
@@ -13622,222 +14266,6 @@
 			(project "Circuit"
 				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G")
-		(at 74.93 67.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f6c11e87-d10b-45c0-a8c3-32437b088925")
-		(property "Reference" "D1"
-			(at 71.628 65.278 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD5V0X1UL"
-			(at 77.47 68.5799 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:TVS_LESD5D5.0CT1G"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Transient Voltage Suppressors for ESD Protection"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Leshan Radio Co."
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=eda"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "O"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LESD5D5.0CT1G/Leshan+Radio/view-part/?ref=snap"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "LESD5D5.0CT1G"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "LRC"
-			(at 74.93 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "149d5378-cec9-4258-aa35-c8c96680745a")
-		)
-		(pin "1"
-			(uuid "41e7d704-199e-4a49-9ad2-c67b2f82e4ce")
-		)
-		(instances
-			(project "Circuit"
-				(path "/d9f6efd2-e608-4732-a385-c6e7c0265b38"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14056,6 +14484,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 248.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1590"
 			(at 248.92 59.69 0)
 			(hide yes)
 			(show_name no)
